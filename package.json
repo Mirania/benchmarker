@@ -1,0 +1,21 @@
+{
+  "name": "benchmarker",
+  "version": "1.2.0",
+  "description": "benchmarks js/ts code",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "buildrun": "tsc && node built/index.js",
+    "run": "node built/index.js",
+    "start": "node built/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Me",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/node": "^12.7.2"
+  }
+}
